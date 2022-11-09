@@ -19,8 +19,7 @@
     <form action="/boardSave" method="post" class="form-control">
         <input type="text" name="boardWriter" value="${sessionScope.loginEmail}" readonly class="form-control mt-5">
         <input type="text" name="boardTitle" placeholder="제목" class="form-control mt-5">
-        <textarea name="boardContents" cols="30" rows="10" class="form-control mt-5" placeholder="내용">
-        </textarea>
+        <textarea name="boardContents" cols="30" rows="10" class="form-control mt-5" placeholder="내용"></textarea>
         <input type="submit" class="btn btn-primary mt-5" value="글작성!">
     </form>
 </div>

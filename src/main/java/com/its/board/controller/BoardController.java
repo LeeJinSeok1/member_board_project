@@ -69,7 +69,7 @@ public class BoardController {
     public String boardUpdate(@ModelAttribute BoardDTO boardDTO) {
         System.out.println("boardDTO = " + boardDTO);
         boardService.boardUpdate(boardDTO);
-        return "redirect:listPage";
+        return "redirect:paging";
     }
     @GetMapping("/boardDelete")
     public String boardDelete(@RequestParam("id") Long id){

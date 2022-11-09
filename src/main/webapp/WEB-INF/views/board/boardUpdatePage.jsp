@@ -17,8 +17,7 @@
         <input type="text" name="id" value="${board.id}" readonly class="form-control" hidden>
         <input type="text" name="boardWriter" value="${board.boardWriter}" readonly class="form-control">
         <input type="text" name="boardTitle" value="${board.boardTitle}" class="form-control">
-        <textarea name="boardContents" cols="30" rows="10" class="form-control" placeholder="내용">
-            ${board.boardContents}
+        <textarea name="boardContents" cols="30" rows="10" class="form-control" placeholder="내용">${board.boardContents}
         </textarea>
         <input type="submit" class="btn btn-primary" value="수정완료">
     </form>
